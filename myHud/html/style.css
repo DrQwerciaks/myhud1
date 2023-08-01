@@ -1,0 +1,96 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+body {
+  font-family: sans-serif;
+  font-weight: normal;
+  overflow: hidden;
+  height: 100%; }
+
+.hud {
+  position: relative;
+  bottom: -5%;
+  right: -87%;
+  width: 230px; }
+  .hud .container {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 150px;
+    height: 70px;
+    padding: 3px 0px 0px 11px;
+    border-radius: 10px; }
+  .hud #money {
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	text-align: center;
+	/* font-family: fantasy;  monospace */
+	font-family: monospace;
+	background-color: green;
+	border-radius: 10px;
+	font-size: 20px;
+	width: 112px;
+	height: 22px;
+	right: 0;
+	margin-right: 8px;
+	top: -15px; }
+	/* .hud #black-money {
+	  position: absolute;
+	  z-index: 2;
+	  color: red;
+	  text-align: center;
+	  font-family: fantasy;
+	  font-size: 18px;
+	  width: 200px;
+	  right: 0;
+	  top: -15px; } */
+  .hud .icons {
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	top: -16px; }
+    .hud .container .type {
+      width: 152px;
+      height: 12px;
+      margin: 5px 0; }
+      .hud .container .type .svg {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: -4px;
+        width: 14px;
+        text-align: center; }
+      .hud .container .type .progress {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: -4px;
+        margin-left: 8px;
+        width: calc(100% - 22px);
+        height: 9px; /* Adjust the strength of the progress bars  */
+        background-color: rgba(187, 200, 222, 0.3);
+        border-radius: 10px; }
+        .hud .container .type .progress div {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: #BBC8DE; 
+          border-radius: 10px; }
+          .voice div {
+            background-color: #e5eb4b!important; /* Adjust voice progress color  */
+          }
+          .heart div {
+            background-color: #3cc249!important; /* Adjust heart progress color  */
+          }
+          .hunger div {
+            background-color: #FE9A2E!important; /* Adjust hunger progress color  */
+          }
+          .thirst div {
+            background-color: #00BFFF!important; /* Adjust thirst progress color  */
+          }
+          .drunk div {
+            background-color: #DF01D7!important; /* Adjust drunk progress color  */
+          }
+		  
